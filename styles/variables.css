@@ -1,0 +1,26 @@
+:root {
+    --bg: #FFFFFF;
+    --text-color: #191720;
+    --button-text-color: #FFFFFF;
+    --accent-color: #FF5331;
+    --form-text-color: #AFAFAF;
+    --main-front: "Inter";
+
+    --form-partner-bg: #F6F6F6;
+
+    --block-partner-store-button-bg: #F4F4F4;
+
+    --delivery-text-color: #009B00;
+    --menu-bg: #FAFAFA;
+
+    --slider-bg-arrow-button: #E2E2E2;
+    --slider-text-color: #000000;
+    --slider-subtext-color: #616161;
+
+    --top-footer-bg: #FFEFEC;
+    --top-footer-form-bg: #FFFFFF;
+
+    --footer-title-color: #FFFFFF;
+    --footer-link-text-color: #AAA7B1;
+    --footer-store-button-bg: #FFFFFF;
+}

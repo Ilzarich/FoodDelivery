@@ -1,0 +1,8 @@
+@import url(./block/header.css);
+@import url(./block/partner.css);
+
+body {
+    background-color: var(--bg);
+    color: var(--text-color, #191720);
+    font-family: var(--main-front), sans-serif;
+}

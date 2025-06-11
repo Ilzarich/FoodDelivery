@@ -1,0 +1,79 @@
+.header__btn {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 61px;
+    min-inline-size: 320px;
+    max-inline-size: 1178px;
+    margin-inline: auto;
+}
+
+.menu__list {
+    display: flex;
+    column-gap: 48px;
+    margin-inline-start: 126px;
+}
+
+.menu__item {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 28px;
+}
+
+.menu__button {
+    cursor: pointer;
+}
+
+.menu__item:last-child {
+    position: relative;
+}
+
+.menu__arrow:before, .menu__arrow:after {
+    border-right: 2px solid;
+    content: '';
+    display: block;
+    height: 8px;
+    margin-top: -2px;
+    position: absolute;
+    -moz-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    left: 44px;
+    top: 50%;
+    width: 0;
+}
+
+.menu__arrow:after {
+    margin-top: -2px;
+    margin-left: -5px;
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.menu__arrow:hover, .menu__arrow:focus,
+.menu__arrow:hover:before, .menu__arrow:hover:after,
+.menu__arrow:focus:before, .menu__arrow:focus:after {
+    color: #000;
+}
+
+.header__login-group {
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+}
+
+.header__login-grop_signUp {
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+    padding: 17px 27px;
+    border-radius: 36px;
+}

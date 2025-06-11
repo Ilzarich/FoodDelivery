@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-schame" content="light dark">
+    <link rel="icon" href="./images/favicon/favicon.ico" sizes="any">
+    <link rel="icon" href="./images/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/favicon/favicon.png">
+    <link rel="stylesheet" href="./fonts/fonst.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>FoodDelivery</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="#"><img 
+                src="./images/logo.png" 
+                alt="logo"
+                width="42px"
+                height="42px"
+                >
+            </a>
+        </div>
+
+        <nav class="header__menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <button type="button" class="menu__button">Restaurants</button>
+                </li>
+                <li class="menu__item">
+                    <button type="button" class="menu__button">Recipes</button>
+                </li>
+                <li class="menu__item">
+                    <button type="button" class="menu__button">About</button>
+                </li>
+                <li class="menu__item">
+                    <button type="button" class="menu__button">Page</button>
+                    <a href="#" class="menu__arrow"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__login-group">
+            <button type="button" class="header__btn header__login-grop_login">Login</button>
+            <button class="header__btn header__login-grop_signUp">Sign Up</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="block__partner partner">
+            <div class="block__partner-text">
+                <h1 class="block__parhner-title">Your Favorite Food Delivery Partner</h1>
+                <p class="block__parhner-subtitle">The food at your doorstep. Why starve when you have us. You hunger partner. Straight out of the oven to your doorstep.</p>
+
+                <form class="form__partner">
+                    <input type="text" class="block__parhner-input" placeholder="Enter your delivery location">
+                    <button class="block__parhner-button btn">Order Now</button>
+                </form>
+
+                <div class="block__parhner-button-shop">
+                    <button type="button" class="partner-store-appStore store-btn"><img src="./images/logo AppStore.png" alt="AppStore"></button>
+                    <buttone type="button" class="store-googlePlay store-btn"><img src="./images/logo GooglePlay.png" alt="GooglePlay"></buttone>
+                </div>
+            </div>
+
+            <div class="block__partner-img">
+                <img src="./images/partner.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

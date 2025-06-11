@@ -1,0 +1,76 @@
+.partner {
+    min-inline-size: 320px;
+    max-inline-size: 1264px;
+    margin-inline: auto;
+}
+
+.block__partner {
+    margin-block-start: 103px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__partner-text {
+    margin-top: 34px;
+}
+
+.block__parhner-title {
+    font-size: 61px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 69px;
+}
+
+.block__parhner-subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    margin-block-start: 16px;
+    max-width: 528px;
+}
+
+.form__partner {
+    margin-block-start: 32px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 56px;
+    padding: 6px 6px 6px 24px;
+    background-color: var(--form-partner-bg);
+    max-width: 464px;
+}
+
+.block__parhner-input {
+    width: 60%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.block__parhner-input:focus {
+    outline: none;
+}
+
+.block__parhner-button {
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 56px;
+    cursor: pointer;
+}
+
+.block__parhner-button-shop {
+    display: flex;
+    align-items: center;
+    margin-block-start: 35px;
+    column-gap: 33px;
+}
+
+.store-btn {
+    background-color: var(--block-partner-store-button-bg);
+    border-radius: 10.26px;
+    padding: 15px 17px;
+    cursor: pointer;
+}
+
