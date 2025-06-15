@@ -1,0 +1,50 @@
+.subscribe {
+    background-color: #FFEFEC;
+}
+
+.subscribe__container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 248px;
+    align-items: center;
+    padding-block-start: 103px;
+    padding-block-end: 103px;
+}
+
+.subscribe__block-title {
+    font-family: var(--sub-front), sans-serif;
+    font-size: 46px;
+    line-height: 58px;
+    font-weight: 700;
+    letter-spacing: 0.5%;
+}
+
+.subscribe__block-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+    margin-block-start: 13px;
+}
+
+.subscribe__from {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg);
+    border-radius: 56px;
+    padding: 5px 5px 5px 26px;
+    max-width: 470px;
+}
+
+.subcribe__form-input {
+   
+}
+
+.subcribe__form-button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 20px;
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+    border-radius: 56px;
+}

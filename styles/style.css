@@ -1,8 +1,67 @@
 @import url(./block/header.css);
 @import url(./block/partner.css);
+@import url(./block/order.css);
+@import url(./block/menu.css);
+@import url(./block/positions.css);
+@import url(./block/feedback.css);
+@import url(./block/subscribe.css);
 
 body {
     background-color: var(--bg);
     color: var(--text-color, #191720);
     font-family: var(--main-front), sans-serif;
+    letter-spacing: 0.3px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 61px;
+    min-inline-size: 320px;
+    max-inline-size: 1178px;
+    margin-inline: auto;
+}
+
+.partner {
+    min-inline-size: 320px;
+    max-inline-size: 1264px;
+    margin-inline: auto;
+}
+
+.positions {
+    margin-block-start: 200px;
+    min-inline-size: 320px;
+    max-inline-size: 1264px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    min-inline-size: 320px;
+    max-inline-size: 1310px;
+    margin-inline: auto;
+}
+
+.order {
+    min-inline-size: 320px;
+    max-inline-size: 1231px;
+    margin-inline: auto;
+    margin-block-start: 190px;
+}
+
+.feedback {
+    min-inline-size: 320px;
+    max-inline-size: 787px;
+    margin-inline: auto;
+    margin-block-start: 195px;
+}
+
+.subscribe__container {
+     min-inline-size: 320px;
+    max-inline-size: 1420px;
+    margin-inline: auto;
+    margin-block-start: 195px;
 }

@@ -1,0 +1,64 @@
+.title__order {
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+    letter-spacing: 1.5px;
+    line-height: 46px;
+    font-weight: 500;
+}
+
+.step__order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block-start: 126px;
+}
+
+.step__order-step {
+    max-width: 214px;
+    max-height: 267px;
+    position: relative;
+    z-index: 1;
+    margin-block-start: -30px;
+}
+
+.step__order-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step__order-number {
+    margin-block-end: -20px;
+    font-size: 44px;
+    letter-spacing: -1%;
+    font-weight: 500;
+    color: var(--accent-color);
+    position: absolute;
+    z-index: -1;
+    width: 57px;
+    height: 53px;
+    bottom: 270px;
+}
+
+.step__order-info {
+    background-color: var(--menu-bg);
+    padding: 44px 23px;
+    border-radius: 28px;
+    z-index: 10;
+}
+
+.step__order-img {
+    background-color: var(--bg);
+    padding: 18px 24px;
+    border-radius: 16px;
+}
+
+.step__order-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    max-width: 168px;
+    margin-block-start: 34px;
+}
