@@ -5,6 +5,7 @@
 @import url(./block/positions.css);
 @import url(./block/feedback.css);
 @import url(./block/subscribe.css);
+@import url(./block/footer.css);
 
 body {
     background-color: var(--bg);
@@ -60,8 +61,83 @@ body {
 }
 
 .subscribe__container {
-     min-inline-size: 320px;
+    min-inline-size: 320px;
     max-inline-size: 1420px;
     margin-inline: auto;
-    margin-block-start: 195px;
+    margin-block-start: 165px;
+}
+
+.footer__container{
+    min-inline-size: 320px;
+    max-inline-size: 1357px;
+    margin-inline: auto;
+}
+
+@media(max-width: 1023px) {
+    .header {
+        max-inline-size: 980px;
+    }
+
+    .partner  {
+        max-inline-size: 1000px;
+    }
+
+    .positions {
+        max-inline-size: 1000px;
+    }
+
+    .menu {
+        max-inline-size: 1000px;
+    }
+
+    .order {
+        max-inline-size: 1000px;
+    }
+
+    .feedback {
+        max-inline-size: 1000px;
+    }
+
+    .subscribe__container {
+        max-inline-size: 1000px;
+    }
+
+    .footer__container {
+        max-inline-size: 1000px;
+    }
+    
+}
+
+@media(max-width: 767px) {
+    .header {
+        max-inline-size: 700px;
+    }
+
+    .partner {
+        max-inline-size: 720px;
+    }
+
+    .positions {
+        max-inline-size: 700px;
+    }
+
+    .menu {
+        max-inline-size: 700px;
+    }
+
+    .order {
+        max-inline-size: 700px;
+    }
+
+    .feedback {
+        max-inline-size: 700px;
+    }
+
+    .subscribe__container {
+        max-inline-size: 700px;
+    }
+
+    .footer__container {
+        max-inline-size: 700px;
+    }
 }

@@ -62,3 +62,16 @@
     max-width: 168px;
     margin-block-start: 34px;
 }
+
+@media(max-width: 1023px) {
+    .step__order {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 180px;
+        row-gap: 100px;
+    }
+}
+
+@media(max-width: 767px) {
+    
+}

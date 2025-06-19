@@ -5,10 +5,14 @@
 .subscribe__container {
     display: flex;
     justify-content: space-between;
-    column-gap: 248px;
     align-items: center;
     padding-block-start: 103px;
     padding-block-end: 103px;
+}
+
+.subscribe__block-text {
+    max-width: 675px;
+    width: 100%;
 }
 
 .subscribe__block-title {
@@ -23,8 +27,14 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0.9px;
+    letter-spacing: 0.8px;
     margin-block-start: 13px;
+}
+
+.subscribe__block-form {
+    max-width: 470px;
+    width: 100%;
+    margin-right: 28px;
 }
 
 .subscribe__from {
@@ -34,10 +44,16 @@
     border-radius: 56px;
     padding: 5px 5px 5px 26px;
     max-width: 470px;
+    width: 100%;
 }
 
 .subcribe__form-input {
-   
+   max-width: 350px;
+   width: 100%;
+}
+
+.subcribe__form-input:focus {
+    outline: none;
 }
 
 .subcribe__form-button {
@@ -47,4 +63,23 @@
     background-color: var(--accent-color);
     color: var(--button-text-color);
     border-radius: 56px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.subcribe__form-button:hover {
+    background-color: var(--hover-bg);
+}
+
+@media(max-width: 1023px) {
+    .subscribe__container {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .subscribe__block-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

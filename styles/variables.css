@@ -21,7 +21,11 @@
     --top-footer-bg: #FFEFEC;
     --top-footer-form-bg: #FFFFFF;
 
+    --footer-bg: #000000;
     --footer-title-color: #FFFFFF;
     --footer-link-text-color: #AAA7B1;
     --footer-store-button-bg: #FFFFFF;
+
+    --transition: all 0.3s ease-in;
+    --hover-bg: #191720;
 }

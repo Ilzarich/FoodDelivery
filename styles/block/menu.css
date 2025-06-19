@@ -14,6 +14,12 @@
     padding: 32px;
     border-radius: 28px;
     max-width: 168px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.menu__element:hover{
+    background-color: var(--accent-color);
 }
 
 .menu__element-button {
@@ -27,6 +33,10 @@
     font-size: 24px;
     letter-spacing: -1px;
     text-transform: capitalize;
+}
+
+.menu__element:hover .menu__button-text {
+    color: #fff;
 }
 
 .menu__moto-element {
@@ -78,4 +88,30 @@
     font-weight: 400;
     line-height: 34px;
     margin-block-start: 34px;
+}
+
+@media(max-width: 1023px) {
+    .top__menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .bottom__menu {
+        margin-block-start: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .top__menu {
+        row-gap: 20px;
+    }
+
+    .bottom__menu {
+        margin-block-start: 50px;
+        row-gap: 20px;
+    }
 }

@@ -1,0 +1,130 @@
+.footer {
+    background-color: var(--footer-bg);
+    padding: 111px 0px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu-container {
+    display: flex;
+    column-gap: 144px;
+    margin-block-start: 17px;
+}
+
+.footer__menu-item_title {
+    color: var(--footer-title-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-block-end: 18.5px;
+}
+
+.footer__menu-link {
+    text-decoration: none;
+    color: var(--footer-link-text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    transition: var(--transition);
+}
+
+.footer__menu-link:hover {
+    color: var(--accent-color); 
+}
+
+.footer__menu-link_contact {
+    text-decoration: none;
+    color: var(--footer-link-text-color);
+    font-size: 14px;
+    line-height: 34px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.footer__menu-link_contact:hover {
+    color: var(--accent-color);
+}
+
+.footer__store {
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+    margin-block-start: 82px;
+}
+
+.footer__apps {
+    background-color: var(--bg);
+    border-radius: 11px;
+}
+
+.footer__store-appStore {
+    padding: 15px 17px;
+}
+
+.footer__store-googlePlay {
+    padding: 17px;
+}
+
+.footer__reserved-text {
+    color: var(--footer-link-text-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer__reserved-link {
+    text-decoration: none;
+    color: var(--footer-link-text-color);
+    font-size: 18px;
+    line-height: 27px;
+    transition: var(--transition);
+}
+
+.footer__reserved-link:hover {
+    color: #fff;
+}
+
+.footer__reserved {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 190px;
+}
+
+.footer__reserved-list {
+    display: flex;
+    column-gap: 60px;
+}
+
+@media(max-width: 1023px) {
+    .footer__logo {
+        display: flex;
+        column-gap: 40px;
+    }
+
+    .footer__logo-img {
+        width: 54px;
+        height: 54px;
+    }
+
+    .footer__store {
+        margin-block-start: 0px;
+    }
+
+    .footer__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__menu-container {
+        margin-block-start: 50px;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer__menu-container {
+        column-gap: 60px;
+    }
+} 
